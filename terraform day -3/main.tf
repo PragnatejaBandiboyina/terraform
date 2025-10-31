@@ -26,6 +26,6 @@ resource "aws_instance" "name" {
 }
 
 resource "aws_s3_bucket" "name" {
-  bucket = "ramumamathapragnatejajanu"
+  bucket = "my-new-tf-backend-bucket"
   
 }
