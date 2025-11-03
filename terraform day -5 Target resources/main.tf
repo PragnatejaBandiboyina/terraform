@@ -9,11 +9,15 @@ resource "aws_instance" "name" {
 
 }
 
-resource "aws_s3_bucket" "name" {
-    bucket = "ramumamathapanduteja12345"
+resource "aws_vpc" "name" {
+    cidr_block = "10.0.0.0/16"
+    tags = {
+      Name="my-vpc"
+    }
   
-
 }
+
+
 
 
 
@@ -22,5 +26,7 @@ resource "aws_s3_bucket" "name" {
 # the name itself target means only targetted resource will  be created in above code only s3 will create
 # command---> terraform plan -target=aws_s3_bucket.name --- not only s3 any resource
 #             terraform apply -target=aws_s3_bucket.name --- not only s3 any resource
+
+
 
 
