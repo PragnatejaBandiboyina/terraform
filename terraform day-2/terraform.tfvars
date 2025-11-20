@@ -1,4 +1,4 @@
-pragna="ami-02b297871a94f4b42" 
-ami_id="ami-02b297871a94f4b42"
+pragna="ami-0fa3fe0fa7920f68e" 
+ami_id="ami-0fa3fe0fa7920f68e"
 janu="t2.micro"
  
